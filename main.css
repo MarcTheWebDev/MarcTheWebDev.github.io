@@ -7,12 +7,10 @@ body {
 	background-image: url(Images/mountians.jpg);
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
 	background-size: cover;
 	text-align: center;
-	display: flex;
 	flex-direction: column;
-
+	height: 100vh;
 }
 
 
@@ -28,7 +26,7 @@ div.header-box {
   padding: 70px;
   padding-top: 5%;
   margin-bottom: 50px;
-  max-width: 40%;
+  max-width: 57%;
 }
 
 #header-box-mod {
@@ -57,6 +55,7 @@ nav a {
 	font-weight: 700;
 	color: rgba(0,0,0,0.7);
 	text-transform: uppercase;
+	padding-top: 3%;
 }
 
 nav a:hover {
@@ -121,7 +120,7 @@ img {
 
 .skills li {
 	display: inline-block;
-    max-width:50%;
+    max-width:55%;
     word-break:break-all; /* wrap extended text*/
     border:1px solid #6699ff;
     background: #6699ff;
@@ -243,7 +242,7 @@ footer {
 
 @media (max-width: 420px) {
 	nav a {
-		font-size: 14px;
+		font-size: 13px;
 	}
 	.header-box {
 		width: 100%;
